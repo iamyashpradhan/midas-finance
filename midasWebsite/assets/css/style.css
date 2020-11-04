@@ -3044,7 +3044,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 /* Menu Levels */
 .dropdown-menu {
 	background-color: transparent;
-	position: relative;
+	position: ;
 	width: 100%;
 	border: none;
 	-moz-box-shadow: none;
@@ -3265,7 +3265,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 }
 
 .navbar-nav > li.has-dropdown > ul.dropdown-menu {
-	width: 190px;
+	width: 300px;
 	min-width: 190px;
 	padding: 13px 0;
 	background-color: #1b1a1a;
@@ -4145,19 +4145,19 @@ li.dropdown-submenu > ul.dropdown-menu > li.has-dropdown > ul.dropdown-menu.left
 	display: block;
 	margin-right: 20px;
 	cursor: pointer;
-	margin-top: 34px;
+	margin-top: 25px;
 	-webkit-transition: .2s ease;
 	transition: .2s ease;
 	border-radius: 50px;
-	color: #ffffff;
-	border: 2px solid #ffffff;
+	color: black;
+	border: 2px solid black;
 }
 
-.module-consultation .btn:hover,
-.navbar.affix .module-consultation .btn:hover {
-	background-color: #a0d334;
-	color: #ffffff;
-	border-color: #a0d334;
+.module-consultation ,
+.navbar.affix .module-consultation  {
+	background-color: white;
+	color: black;
+	border-color: black;
 }
 
 /* Module Signup */
