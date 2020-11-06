@@ -1,13 +1,13 @@
 <?php require("PHPMailer/PHPMailerAutoload.php");
 
 // ADD your Email and Name
-$recipientEmail='wpgoocom@gmail.com';
-$recipientName='John Doe';
+$recipientEmail='team@midasfin.in';
+$recipientName='Team Midas Finance';
 
 //collect the posted variables into local variables before calling $mail = new mailer
 
 $senderName = $_POST['contact-name'];
-$senderLast = $_POST['contact-last'];
+$senderCity = $_POST['contact-city'];
 $senderTele = $_POST['contact-phone'];
 $senderEmail = $_POST['contact-email'];
 $senderSubject = 'New Message From' . $senderName . $senderEmail;
@@ -36,10 +36,10 @@ $mail->AddAddress($recipientEmail, $recipientName);
 //now make those variables the body of the emails
 
 $mail->Body="
-Name: $senderName .$senderLast<br/>
+Name: $senderName <br/>
 Phone: $senderTele<br/>
 Email: $senderEmail<br/>
-Suburb: $senderSubject<br/>
+City: $senderCity<br/>
 Message: $senderMessage";
 
 if(!$mail->Send()) {
