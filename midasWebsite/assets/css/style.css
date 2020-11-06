@@ -96,10 +96,10 @@ html {
 
 body {
 	background-color: #ffffff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
 	font-weight: 400;
-	color: #9b9b9b;
+	color: black;
 	line-height: 1.5;
 	margin: 0;
 }
@@ -236,7 +236,7 @@ h6 {
 
 p {
 	color: #9b9b9b;
-	font-size: 13px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 22px;
 }
@@ -2586,7 +2586,7 @@ body.modal-open .affix {
 
 .modal {
 	z-index: 1080;
-	background: rgba(34, 34, 34, 0.95);
+	background: white;
 }
 .modal::-webkit-scrollbar {
  display: none;
@@ -2617,9 +2617,9 @@ body.modal-open .affix {
 	position: absolute;
 	top: 30px;
 	right: 30px;
-	color: #ffffff;
+	color: black;
 	z-index: 1040;
-	font-size: 14px;
+	font-size: 30px;
 	font-weight: 400;
 	opacity: 1;
 }
@@ -2629,8 +2629,8 @@ body.modal-open .affix {
 }
 
 .modal button.close:focus,
-.modal button.close:hover {
-	color: #a0d334;
+ {
+	color: black;
 }
 /*------------------------------------*\
     #Animation
